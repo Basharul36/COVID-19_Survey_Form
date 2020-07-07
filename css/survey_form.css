@@ -1,0 +1,99 @@
+body{
+  padding-left:25%;
+  padding-right: 25%;
+  background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+}
+#name{
+  height:25px;
+  width:550px;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 15px;
+}
+#email{
+  height:25px;
+  width:550px;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 15px;
+}
+#number{
+  height:25px;
+  width:550px;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 15px;
+}
+#dropdown{
+  height:25px;
+  width:550px;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 15px;
+}
+#textarea
+{
+  height:80px;
+  width:550px;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 15px;
+}
+form{
+  background-image: linear-gradient( 112.1deg,  rgba(32,38,57,1) 11.4%, rgba(63,76,119,1) 70.2% );
+  padding:50px 50px 50px 50px;
+}
+#title
+{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 35px;
+  text-align: center;
+}
+#description
+{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+#question
+{
+  font-family: 'Montserrat', sans-serif;
+  font-size:20px;
+  color:white;
+  display: block;
+}
+#name-label
+{
+  font-family: 'Montserrat', sans-serif;
+  font-size:20px;
+  color:white;
+  display: block;
+}
+#email-label
+{
+  font-family: 'Montserrat', sans-serif;
+  font-size:20px;
+  color:white;
+  display: block;
+}
+#number-label
+{
+  font-family: 'Montserrat', sans-serif;
+  font-size:20px;
+  color:white;
+  display: block;
+}
+#answer
+{
+  font-family: 'Work Sans', sans-serif;
+  font-size:18px;
+  color:white;
+}
+#submit
+{
+  display:block;
+  height:50px;
+  width:550px;
+  font-family: 'Work Sans', sans-serif;
+  font-style: italic;
+  background:#32CD32;
+  color:white;
+  font-size: 20px;
+}

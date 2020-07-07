@@ -1,0 +1,140 @@
+<html lang="en">
+  <head>
+    <title>COVID-19 Survey Form</title>
+    <link rel="stylesheet" type="text/css" href="css/survey_form.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h1 id="title">Health Care Survey-Corona Virus (COVID-19)</h1>
+    <p id="description"><em>Thank you for taking the time to fill the COVID-19<br> Awareness Survey Form<br><b>Stay Home--Stay Safe<b></em></p>
+    <form id="survey-form">
+      <!--Question 1-->
+      <label id="name-label">Full Name: </label><input type="text" name="Fullname" required id="name" placeholder="Enter Your Full Name">
+      <br><br>
+      <!--Question 2-->
+      <label id="email-label">Email: </label><input type="email" name="email" required id="email" placeholder="Enter your Email Id"><br><br>
+      <label id="number-label">Age: </label><input type="number" name="Age" min="1" max="100" required id="number" placeholder="Enter Your Age"><br><br>
+      <!--Question 3-->
+      <label id="question" for="gender">Gender:</label>
+      <select id="dropdown" name="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="transgender">Transgender</option>
+        <option value="others">Others</option>
+      </select><br><br>
+      <!--Question 4-->
+      <label id="question">What is your main source of information regarding COVID-19?</label>
+      <br>
+      <input type="radio" name="info" value="newspaper and television news">
+      <label id="answer" for="newspaper and television news">Newspaper and television news</label><br>
+      <input type="radio" name="info" value="social media">
+      <label id="answer" for="social media">Social media</label><br>
+      <input type="radio" name="info" value="government official websites">
+      <label id="answer" for="government official websites">Government official websites</label><br>
+      <input type="radio" name="info" value="public health banners">
+      <label id="answer" for="public health banners">Public health banners</label><br>
+      <input type="radio" name="info" value="friends and family">
+      <label id="answer" for="friends and familys">Friends and family</label><br>
+      <input type="radio" name="info" value="from doctors">
+      <label id="answer" for="from doctors">From Doctors</label><br><br>
+      <!--Question 5-->
+      <label id="question">What are the main symptoms of the virus?</label><br>
+      <input type="checkbox" id="answer" name="symptoms" value="cold">
+      <label id="answer" for="cold">Cold</label><br>
+      <input type="checkbox" id="answer" name="symptoms" value="fever">
+      <label id="answer" for="fever">Fever</label><br>
+      <input type="checkbox" id="answer" name="symptoms" value="cough">
+      <label id="answer" for="cough">Cough</label><br>
+      <input type="checkbox" id="answer" name="symptoms" value="toothache">
+      <label id="answer" for="toothache">Toothache</label><br>
+      <input type="checkbox" id="answer" name="symptoms" value="sore throat">
+      <label id="answer" for="sore throat">Sore Throat</label><br>
+      <input type="checkbox" id="answer" name="symptoms" value="nausea">
+      <label id="answer" for="nausea">Nausea</label><br>
+      <input type="checkbox" id="answer" name="symptoms" value="stomach pain">
+      <label id="answer" for="stomach pain">Stomach Pain</label><br>
+      <input type="checkbox" id="answer" name="symptoms" value="itching">
+      <label id="answer" for="itching">Itching</label><br>
+      <input type="checkbox" id="answer" name="symptoms" value="shortness of breath">
+      <label id="answer" for="shortness of breath">Shortness of breath</label><br>
+      <input type="checkbox" id="answer" name="symptoms" value="diarrhea">
+      <label id="answer" for="diarrhea">Diarrhea</label><br>
+      <input type="checkbox" id="answer" name="symptoms" value="redness in eyes">
+      <label id="answer" for="redness in eyes">Redness in eyes</label><br><br>
+      <!--Question 6-->
+      <label id="question">Do you think your District's Health Department is doing enough to prevent the outbreak from spreading? </label>
+      <br>
+      <input type="radio" name="info" value="yes">
+      <label id="answer" for="yes">Yes</label><br>
+      <input type="radio" name="info" value="no">
+      <label id="answer" for="no">No</label><br>
+      <input type="radio" name="info" value="unsure">
+      <label id="answer" for="unsure">Unsure</label><br><br>
+      <!--Question 8-->
+      <label id="question">Do you think your District's Health Department is doing enough to cure those infected?</label>
+      <br>
+      <input type="radio" name="info" value="yes">
+      <label id="answer" for="yes">Yes</label><br>
+      <input type="radio" name="info" value="no">
+      <label id="answer" for="no">No</label><br>
+      <input type="radio" name="info" value="unsure">
+      <label id="answer" for="unsure">Unsure</label><br><br>
+      <!--Question 9-->
+      <label id="question">Is hand hygiene important in preventing the spread of the virus?</label>
+      <br>
+      <input type="radio" name="info" value="yes">
+      <label id="answer" for="yes">Yes</label><br>
+      <input type="radio" name="info" value="no">
+      <label id="answer" for="no">No</label><br>
+      <input type="radio" name="info" value="maybe">
+      <label id="answer" for="maybe">Maybe</label><br><br>
+      <!--Question 10-->
+      <label id="question">Does wearing a mask help prevent the spread of the virus?</label>
+      <br>
+      <input type="radio" name="info" value="yes">
+      <label id="answer" for="yes">Yes</label><br>
+      <input type="radio" name="info" value="no">
+      <label id="answer" for="no">No</label><br>
+      <input type="radio" name="info" value="maybe">
+      <label id="answer" for="maybe">Maybe</label><br><br>
+      <!--Question 11-->
+      <label id="question">Would wearing gloves help prevent the spread of the virus?</label>
+      <br>
+      <input type="radio" name="info" value="yes">
+      <label id="answer" for="yes">Yes</label><br>
+      <input type="radio" name="info" value="no">
+      <label id="answer" for="no">No</label><br>
+      <input type="radio" name="info" value="maybe">
+      <label id="answer" for="maybe">Maybe</label><br><br>
+      <!--Question 12-->
+      <label id="question">Can COVID-19 be cured with antibiotics?</label>
+      <br>
+      <input type="radio" name="info" value="yes">
+      <label id="answer" for="yes">Yes</label><br>
+      <input type="radio" name="info" value="no">
+      <label id="answer" for="no">No</label><br>
+      <input type="radio" name="info" value="maybe">
+      <label id="answer" for="maybe">Maybe</label><br><br>
+      <!--Question 12-->
+      <label id="question">Do you know where to go if you start developing symptoms?</label>
+      <br>
+      <input type="radio" name="info" value="yes">
+      <label id="answer" for="yes">Yes</label><br>
+      <input type="radio" name="info" value="no">
+      <label id="answer" for="no">No</label><br>
+      <input type="radio" name="info" value="maybe">
+      <label id="answer" for="maybe">Maybe</label><br>
+      <input type="radio" name="info" value="i know people who might know">
+      <label id="answer" for="i know people who might know">I know people who might know</label><br><br>
+      <!--Question 7-->
+      <label id="question" for="points">Rate your District's Health Department:</label><br>
+      <input type="range" id="points" name="points" min="1" max="5"><br><br>
+      <label id="question">Additional Comments:</label><br>
+      <textarea type="textarea" id="textarea" placeholder="Enter Your Comments"></textarea><br><br>
+     <br><input type="submit" id="submit">
+    </form>
+    <script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
