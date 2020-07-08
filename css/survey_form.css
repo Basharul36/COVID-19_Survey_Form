@@ -6,33 +6,33 @@ background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
 
 }
 #name{
-  height:25px;
-  width:550px;
+  height:4%;
+  width:90%;
   font-family: 'Work Sans', sans-serif;
   font-size: 15px;
 }
 #email{
-  height:25px;
-  width:550px;
+  height:4%;
+  width:90%;
   font-family: 'Work Sans', sans-serif;
   font-size: 15px;
 }
 #number{
-  height:25px;
-  width:550px;
+  height:4%;
+  width:90%;
   font-family: 'Work Sans', sans-serif;
   font-size: 15px;
 }
 #dropdown{
-  height:25px;
-  width:550px;
+  height:4%;
+  width:90%;
   font-family: 'Work Sans', sans-serif;
   font-size: 15px;
 }
 #textarea
 {
-  height:80px;
-  width:550px;
+  height:15%;
+  width:90%;
   font-family: 'Work Sans', sans-serif;
   font-size: 15px;
 }
@@ -89,11 +89,24 @@ form{
 #submit
 {
   display:block;
-  height:50px;
-  width:550px;
+  height:6%;
+  width:90%;
   font-family: 'Work Sans', sans-serif;
   font-style: italic;
   background:#32CD32;
   color:white;
   font-size: 20px;
+}
+@media (min-width: 400px) {
+  #survey_form
+  {
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 800px) {
+  #survey_form
+  {
+    max_width:100%;
+  }
 }
